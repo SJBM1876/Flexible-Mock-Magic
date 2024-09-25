@@ -49,6 +49,9 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer img {
@@ -56,6 +59,7 @@ footer img {
 }
 
 .flex-main {
+    display: flex;
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
@@ -88,3 +92,7 @@ ul {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
